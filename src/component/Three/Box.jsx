@@ -13,7 +13,7 @@ import { useNavigate } from 'react-router-dom';
 export function Model(props) {
   const { camera } = useThree();
   const group = React.useRef()
-  const { nodes, materials, animations } = useGLTF('../../../box.glb')
+  const { nodes, materials, animations } = useGLTF(`${process.env.PUBLIC_URL}/box.glb`)
   const { actions } = useAnimations(animations, group)
   const navigate = useNavigate();
 
@@ -74,4 +74,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('../../../box.glb')
+useGLTF.preload(`${process.env.PUBLIC_URL}/box.glb`)
