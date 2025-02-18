@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.dancing-script-font {
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+  height: 100vh;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgba(12, 12, 12, 0.986) 100%);
+}
+.container-surat{
+  min-height: 100vh;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.742);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  height: 30rem;
+  width:  25rem;
+  background: #f3e0b5;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: large;
+}
+
+.audio-player {
+  background-color: #373226; 
+  padding: 10px;
+  height: 15px;
+}
+
+.audio-player .rp-audio-player {
+  display: flex;
+  align-items: center;
+}
+.lagu{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
